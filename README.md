@@ -1,4 +1,5 @@
 # fastmidi 高效MIDI音乐生成模型
+## https://github.com/lrjxgl/fastmidi
 
 基于 Mamba 架构的 MIDI 音乐生成模型，使用 PaddlePaddle 深度学习框架实现。支持单音轨独奏和多音轨编曲生成，可通过情绪、风格、调性、BPM 等参数控制生成结果。
 
@@ -11,6 +12,7 @@
 - **FluidSynth 音频合成**：使用 GM 音源合成高质量 WAV 音频
 - **ffmpeg 音频编辑**：音频编辑，音频转换
 - **Gradio Web 界面**：提供友好的交互界面进行音乐生成
+
  
 
 ## 目录结构
@@ -90,6 +92,10 @@ brew install ffmpeg
 将 `FluidR3_GM.sf2` 音源文件放置在 `soundfonts/` 目录下。音源文件可从以下地址下载：
 
 https://github.com/gleitz/midi-js-soundfonts
+
+### 6.模型下载 
+
+
 
 
 ### 6. 生成音乐
