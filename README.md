@@ -1,5 +1,5 @@
 # fastmidi 高效MIDI音乐生成模型
-  
+A Mamba-based MIDI music AI generation model, trained using the PaddlePaddle deep learning framework. Through model conversion, it supports inference on both PyTorch and PaddlePaddle. It supports the generation of both single-track solos and multi-track arrangements, allowing the output to be controlled via parameters such as emotion, style, key, and BPM.  
 基于 Mamba 架构的 MIDI 音乐生成模型，使用 PaddlePaddle 深度学习框架训练。经过模型转换同时支持pytorch和paddlepaddle推理。
 支持单音轨独奏和多音轨编曲生成，可通过情绪、风格、调性、BPM 等参数控制生成结果。 
 
